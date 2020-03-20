@@ -1,0 +1,156 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: "GT-America-Expanded-Black","Helvetica",serif;
+}
+
+a
+{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@font-face {
+    font-family: "GT-America-Expanded-Black";
+    src: url("GT-America-Expanded-Black.ttf");
+}
+
+body
+{
+    background-image: url("bg-grid.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    filter: grayscale(1);
+    cursor: crosshair;
+}
+
+#banniere
+{
+    width: 80%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+
+#part
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#banniere #img-main
+{
+    height: 100%;
+    margin: 0px auto;
+    width: 50%;
+    float: right;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#banniere #text-main
+{
+    font-size: 80px;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#banniere #text-main ul
+{
+    text-align: left;
+}
+
+#banniere #text-main li
+{
+    list-style-type: none;
+}
+
+#banniere #text-main .unselected
+{
+    color: #CCCCCC;
+    transition-duration: 0.2s;
+}
+
+#banniere #text-main .unselected:hover
+{
+    transform: rotateX(50deg);
+    opacity: 0;
+}
+
+#text-top
+{
+    height: 50%;
+    width: 100%;
+    background-color: #060606;
+    color: white;
+}
+
+#text-top-features
+{
+    font-size: 20px;
+    width: 65%;
+    margin: 0px auto;
+    padding-top: 65px;
+}
+
+#text-top-features #titre-1
+{
+    font-size: 20px;
+    float: left;
+    width: 20%;
+}
+
+#text-top-features #text-1
+{
+    font-size: 20px;
+    float: right;
+    text-align: left;
+    width: 70%;
+}
+
+#video-bottom
+{
+    height: 50%;
+    background-color: #060606;
+    width: 100%;
+}
+
+#wrapper-all
+{
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 65%;
+    padding-bottom: 50px;
+}
+
+#wrapper-left
+{
+    float: left;
+    width: 35vw;
+
+}
+
+#wrapper-left img
+{
+    height: 100%;
+    width: 100%;
+}
+
+#wrapper-right
+{
+    float: right;
+    text-align: left;
+}
